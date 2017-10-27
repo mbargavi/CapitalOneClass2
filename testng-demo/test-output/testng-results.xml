@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MercurySuite" duration-ms="10134" started-at="2017-10-26T18:19:38Z" finished-at="2017-10-26T18:19:48Z">
+    <groups>
+    </groups>
+    <test name="MercuryLoginTest" duration-ms="10134" started-at="2017-10-26T18:19:38Z" finished-at="2017-10-26T18:19:48Z">
+      <class name="com.capital.one.testsuites.MercuryLoginSuite">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.capital.one.testsuites.MercuryLoginSuite@4501b7af]" name="beforeTest" is-config="true" duration-ms="4375" started-at="2017-10-26T14:19:38Z" finished-at="2017-10-26T14:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.newtours.demoaut.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateLandingPage(java.lang.String)[pri:0, instance:com.capital.one.testsuites.MercuryLoginSuite@4501b7af]" name="validateLandingPage" duration-ms="16" started-at="2017-10-26T14:19:42Z" finished-at="2017-10-26T14:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome: Mercury Tours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLandingPage -->
+        <test-method status="PASS" signature="loginMercury(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.capital.one.testsuites.MercuryLoginSuite@4501b7af]" name="loginMercury" duration-ms="4794" started-at="2017-10-26T14:19:42Z" finished-at="2017-10-26T14:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bobbert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bobbert]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Find a Flight: Mercury Tours:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMercury -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.capital.one.testsuites.MercuryLoginSuite@4501b7af]" name="afterTest" is-config="true" duration-ms="928" started-at="2017-10-26T14:19:47Z" finished-at="2017-10-26T14:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.capital.one.testsuites.MercuryLoginSuite -->
+    </test> <!-- MercuryLoginTest -->
+  </suite> <!-- MercurySuite -->
+</testng-results>
