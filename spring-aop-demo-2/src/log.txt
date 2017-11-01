@@ -1,0 +1,12 @@
+2017-11-01 14:36:42 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51521cc1: startup date [Wed Nov 01 14:36:42 EDT 2017]; root of context hierarchy
+2017-11-01 14:36:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-01 14:37:45 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51521cc1: startup date [Wed Nov 01 14:37:45 EDT 2017]; root of context hierarchy
+2017-11-01 14:37:45 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-01 14:40:10 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51521cc1: startup date [Wed Nov 01 14:40:10 EDT 2017]; root of context hierarchy
+2017-11-01 14:40:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-01 14:40:56 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51521cc1: startup date [Wed Nov 01 14:40:56 EDT 2017]; root of context hierarchy
+2017-11-01 14:40:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-01 14:45:09 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51521cc1: startup date [Wed Nov 01 14:45:09 EDT 2017]; root of context hierarchy
+2017-11-01 14:45:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [beans.xml]
+2017-11-01 14:45:10 INFO  root:16 - com.capital.one.services.CafeService@7dc0f706
+2017-11-01 14:45:10 INFO  root:17 - com.capital.one.services.CafeService@7dc0f706
