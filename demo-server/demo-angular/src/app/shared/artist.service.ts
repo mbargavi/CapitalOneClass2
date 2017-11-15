@@ -22,7 +22,7 @@ export class ArtistService {
   getArtistById(artistId: number) {
     const artist: Artist = <Artist> {};
 
-    this.http.get<Artist>('http://localhost:8080/demo-server/api/artist/${artistId}')
+    this.http.get<Artist>('http://localhost:8080/demo-server/api/artist/' + artistId)
       .subscribe(
         data => Object.assign(artist, data),
         err => console.log(err)

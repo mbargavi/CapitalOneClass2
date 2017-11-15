@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Artist } from '../shared/artist';
+import { ArtistService } from '../shared/artist.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  artists: Artist[] = [];
+
+  constructor(private artistService: ArtistService) { }
 
   ngOnInit() {
+    this.artists = this.artistService.getArtists();
   }
 
 }

@@ -1,3 +1,5 @@
-<p>
-  home works!
-</p>
+<div class="row">
+  <div *ngFor="let artist of artists" class="col-sm-4 col-lg-4 col-md-4">
+    <app-artist-item [artist]="artist"></app-artist-item>
+  </div>
+</div>
