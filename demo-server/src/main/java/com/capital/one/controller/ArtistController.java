@@ -22,9 +22,12 @@ public class ArtistController {
 	ArtistDAO artistDAO;
 	
 	@RequestMapping(value="/{id}", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
-	public Artist getArtistById(@PathVariable("id") int id) {
+	public Artist getArtistById(@PathVariable("id") int id) throws Exception {
 		Artist artist = new Artist();
 		artist = artistDAO.getArtist(id);
+		if (artist == null) {
+			throw new Exception();
+		}
 		return artist;
 	}
 	
